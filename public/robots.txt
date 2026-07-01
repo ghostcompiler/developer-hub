@@ -1,0 +1,27 @@
+# Allow all general search bots
+User-agent: *
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /logout
+
+# Explicitly allow AI scrapers and indexers
+User-agent: GPTBot
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /logout
+
+User-agent: ClaudeBot
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /logout
+
+User-agent: Google-Extended
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /logout
+
+Sitemap: http://localhost/sitemap.xml
